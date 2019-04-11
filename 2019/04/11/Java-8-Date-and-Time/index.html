@@ -7,15 +7,18 @@
   
   <title>Java 8 Date and Time | Technology blogging</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="java8, LocalDateTime, LocalDate, LocalTime">
+  <meta name="description" content="Java 8 Date Time APIWith Java 8, a new Date-Time API is introduced to cover the following drawbacks of old date-time API. Not thread safe −java.util.Date is not thread safe, thus developers have to de">
+<meta name="keywords" content="java8, LocalDateTime, LocalDate, LocalTime">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java 8 Date and Time">
 <meta property="og:url" content="http://yoursite.com/2019/04/11/Java-8-Date-and-Time/index.html">
 <meta property="og:site_name" content="Technology blogging">
+<meta property="og:description" content="Java 8 Date Time APIWith Java 8, a new Date-Time API is introduced to cover the following drawbacks of old date-time API. Not thread safe −java.util.Date is not thread safe, thus developers have to de">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-11T12:39:20.833Z">
+<meta property="og:updated_time" content="2019-04-11T13:00:55.484Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java 8 Date and Time">
+<meta name="twitter:description" content="Java 8 Date Time APIWith Java 8, a new Date-Time API is introduced to cover the following drawbacks of old date-time API. Not thread safe −java.util.Date is not thread safe, thus developers have to de">
   
     <link rel="alternate" href="/atom.xml" title="Technology blogging" type="application/atom+xml">
   
@@ -84,11 +87,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h3 id="Java-8-Date-Time-API"><a href="#Java-8-Date-Time-API" class="headerlink" title="Java 8 Date Time API"></a>Java 8 Date Time API</h3><p>With Java 8, a new Date-Time API is introduced to cover the following drawbacks of old date-time API.</p>
+<p>Not thread safe −<br>java.util.Date is not thread safe, thus developers have to deal with concurrency issue while using date.<br>                                The new date-time API is immutable and does not have setter methods.</p>
+<p>Poor design −<br>Default Date starts from 1900, month starts from 1, and day starts from 0, so no uniformity.<br>                    The old API had less direct methods for date operations. The new API provides numerous utility methods for such operations.</p>
+<p>Difficult time zone handling −<br>Developers had to write a lot of code to deal with timezone issues. The new API has been developed keeping domain-specific design in mind.</p>
+<p>Java 8 introduces a new date-time API under the package java.time.</p>
+<p>Following are some of the important classes introduced in java.time package.</p>
+<h4 id="Local-−-Simplified-date-time-API-with-no-complexity-of-timezone-handling"><a href="#Local-−-Simplified-date-time-API-with-no-complexity-of-timezone-handling" class="headerlink" title="Local − Simplified date-time API with no complexity of timezone handling."></a>Local − Simplified date-time API with no complexity of timezone handling.</h4><h4 id="Zoned-−-Specialized-date-time-API-to-deal-with-various-timezones"><a href="#Zoned-−-Specialized-date-time-API-to-deal-with-various-timezones" class="headerlink" title="Zoned − Specialized date-time API to deal with various timezones."></a>Zoned − Specialized date-time API to deal with various timezones.</h4>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/11/Java-8-Date-and-Time/" data-id="cjucn0kwg0001eqjz3kkz1ymi" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/04/11/Java-8-Date-and-Time/" data-id="cjucni8ha0001uhjzzzippay1" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java8-LocalDateTime-LocalDate-LocalTime/">java8, LocalDateTime, LocalDate, LocalTime</a></li></ul>
